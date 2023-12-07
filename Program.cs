@@ -7,3 +7,14 @@ List<Auto> Autos = new List<Auto>();
 
 //Voeg ook 1 auto toe waarbij je de auto aanmaakt en vervolgens de methode VraagInformatie() van de Auto class aanroept.
 
+List<Persoon> Personen = new List<Persoon>();
+
+Persoon persoon1 = new Persoon();
+persoon1.VraagInfo();
+
+Personen.Add(persoon1);
+
+foreach(var dePersoon in Personen)
+{
+    dePersoon.ToonInfo();
+}    

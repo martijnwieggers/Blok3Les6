@@ -11,6 +11,10 @@ namespace Blok3Les6
         public string Voornaam { get; set; }
 
 
+        public Persoon()
+        {
+        }
+
         //Constructor met 1 parameter
 
         public Persoon(string Voornaam)
