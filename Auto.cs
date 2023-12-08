@@ -8,13 +8,20 @@ namespace Blok3Les6
 {
     public class Auto
     {
-        //Stap 1: Maak hier de eigenschappen aan.
+        //Stap 3: Maak hier de eigenschappen aan.
 
-        //Stap 2: Maak hier de constructor aan waarin direct alle eigenschappen worden meegegeven.
+        //Stap 4: Maak hier de constructor aan waarin direct alle eigenschappen worden meegegeven.
 
-        //Stap 3: Maak de Methode ToonInfo() aan die alle informatie afdrukt.
+        //Stap 5: Maak de Methode ToonInfo() aan die alle informatie afdrukt.
 
-        //Stap 4: Maak de Methode VraagInfo() deze stelt de vragen en slaat deze op in variabelen van de class.
+        //Stap 6: Maak de Methode VraagInfo() deze stelt de vragen
+        //        en slaat deze op in de eigenschappen van de class.
+
+        //Default Constructor: Afblijven en laten staan !
+        public Auto()
+        {
+        }
+
 
     }
 }
